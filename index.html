@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubre Mazalife, el estilo de vida único de Mazatlán, Sinaloa. Disfruta de playas paradisíacas, actividades acuáticas, tirolesas, el histórico observatorio, cultura vibrante y deliciosa gastronomía local.">
+    <title>MazaLife Entertaiment-Mazatlán</title>
+    <link rel="icon" href="./src/img/mazaLogo.svg" type="image/x-icon">
+    
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wcg3jje.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body class="">
+    <header class="card rounded-0 border-0">
+        <!-- Video de fondo -->
+        <div class="ratio ratio-21x9">
+            <video autoplay loop muted playsinline class="w-100 h-100 object-fit-cover">
+                <source src="https://mazalife.com.mx/wp-content/uploads/2024/10/VIDEO-NUEVO-LIMPIO-1.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de video.
+            </video>
+            
+        </div>
+        <button id="scroll-down-btn" class="scroll-down position-relative">↓</button>
+
+        <!-- Contenido del header -->
+        <nav class="navbar navbar-expand-lg position-relative">
+          <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand ms-3" href="#nosotros" title="Inicio">
+              <img src="./src/img/mazaLogo.svg" alt="Munba Logo" width="180" title="mazalife" class="logo-responsive" loading="lazy">
+            </a>
+            <!-- Botón de colapso en pantallas pequeñas -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menú de navegación -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav  ms-auto gap-2 fs-6">
+                <!-- Enlace a Nosotros -->
+                <li class="nav-item ms-3">
+                  <a class="nav-link text-dark mt-2 raleway" href="#actividades" title="Actividades">ACTIVIDADES</a>
+                </li>
+                <!-- Enlace a Contacto -->
+                <li class="nav-item ms-3">
+                    <a class="nav-link mt-2 text-dark raleway" href="#contacto" title="Contacto">CONTACTO</a>
+                </li>               
+                <!-- Botón con Modal -->
+                <li class="nav-item btn">
+                 <a href="#" class="nav-link text-white ticket shadow px-3 py-2 raleway" data-bs-toggle="modal" data-bs-target="#ticketModal" title="Tickets">Tickets
+                 </a>
+                </li>  
+                <!-- Modal -->
+                <div class="modal fade" id="ticketModal" tabindex="-1" aria-labelledby="ticketModalLabel" aria-hidden="true">
+                 <div class="modal-dialog modal-dialog-centered modal-xl">
+                  <div class="modal-content">
+                   <div class="modal-header">
+                    <h5 style="color: #ff9700;" class="modal-title londrina-solid-black fs-4" id="ticketModalLabel">¡RESERVA TU EXPERIENCIA!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                   </div>
+                   <div class="modal-body">
+                    <div class="logos">
+                        <div class="logo_items mt-3 mb-3">
+                            <a href="https://farolesa.com.mx/boletos/" class=""  target="_blank" title="Farolesa">
+                                <img src="./src/img/faroLogo.svg" alt="farolesa" class="" title="Farolesa"></a>
+
+                            <a href="https://shekinahbeachclub.com/entradas/" class="" title="Shekinah"  target="_blank">
+                                <img src="./src/img/shekinahLogo.svg" alt="Shekina beach club" class="" title="Shekina"><a>                          
+
+                            <a href="https://munbaexpeditions.mx/calendario-de-salidas/" class="" title="Munbaweb"  target="_blank">
+                                <img src="./src/img/munbaLogo.svg" class="" alt="munba" title="Munba Expedition"></a>
+
+                            <a href="https://www.facebook.com/p/HeliMaz-100063565194700/?locale=es_LA" title="Helimaz" class=""  target="_blank">
+                                <img src="./src/img/helimazLogo.svg" alt="helimaz" class="" title="Helimaz"></a>
+
+                            <a href="https://observatorio1873.com/boletos/" class="" title="Observatorio"  target="_blank">
+                                <img src="./src/img/observLogo.svg" alt="observatorio" class="" title="Observatorio"></a>
+
+                            <a href="https://www.facebook.com/LaMansionPirataMazatlan/?locale=es_LA" title="Mansión Pirata" class="" target="_blank">
+                                <img src="./src/img/pirataLogo.svg" alt="Mansion pirata" class="" title="Mansion Pirata"></a>
+
+                            <a href="#" title="Mazalife" class="" >
+                                <img src="./src/img/mazaLogo.svg" alt="mazalife" class="" title="Mazalife" style="height: 125px;"></a>
+                            
+                            <a href="https://farolesa.com.mx/boletos/" class=""  target="_blank" title="Farolesa">
+                                <img src="./src/img/faroLogo.svg" alt="farolesa" class="" title="Farolesa"></a>
+    
+                            <a href="https://shekinahbeachclub.com/entradas/" class="" title="Shekinah"  target="_blank">
+                                <img src="./src/img/shekinahLogo.svg" alt="Shekina beach club" class="" title="Shekina"><a>
+                        </div>
+                    </div>
+
+                   </div>
+                   <div style="background-color: #0c4c7b" class="modal-footer">
+                    <img style="width: 130px;" src="./src/img/section3.webp" alt="" class="me-auto ms-4">
+                    <button type="button" class="btn me-4 btn-secondary" data-bs-dismiss="modal">Volver</button>
+                </div>
+                
+                   
+                  </div>
+                 </div>
+                </div>  
+              </ul>
+            </div>
+          </div>
+        </nav>        
+    </header>
+
+    <h1 class="hidden">Título SEO para la página</h1>
+
+    <div class="card position-relative border-0 rounded-0">
+        <img src="./src/img/nosotresss.webp" alt="Mazatlan Life" class="img-fluid border-0 px-2 py-4" title="nosotros" >
+    </div>
+
+    <!-- Nosotros -->
+    <section id="nosotros">
+        <div class="">
+            <div class="card mb-5 border-0 px-3 mt-3">
+                <div class="row g-0 align-items-center">
+                    <!-- Columna de texto -->
+                    <div class="col-md-9">
+                        <div class="card-body">
+                            <p class="card-text h4 img-animation mb-3">NOSOTROS</p>
+    
+                            <h4 class="display-3 fw-bolder arboria img-animation mb-3">
+                                Somos el puente hacia las mejores experiencias.
+                            </h4>
+    
+                            <p class="text-body-secondary arboria h3 mb-3 img-animation">
+                                Mazalife es tu puerta a las mejores experiencias en Mazatlán. Ofrecemos aventuras emocionantes, vistas impresionantes y momentos inolvidables para toda la familia, combinando diversión, cultura y naturaleza en un solo lugar.
+                            </p>
+                        </div>
+                    </div>
+    
+                    <!-- Columna de logos -->
+                    <div class="col-md-7 d-flex flex-wrap justify-content-center align-items-center gap-3">
+                        <a href="https://farolesa.com.mx/" class="d-flex align-items-center" style="height: 120px;" target="_blank" title="Farolesa">
+                            <img src="./src/img/faroLogo.svg" alt="farolesa" class="img-fluid img-animation h-100" title="Farolesa">
+                        </a>
+                        <a href="https://shekinahbeachclub.com/" class="d-flex align-items-center" title="Shekinah" style="height: 120px;" target="_blank">
+                            <img src="./src/img/shekinahLogo.svg" alt="Shekina beach club" class="img-fluid img-animation h-100" title="Shekina">
+                        </a>
+                        <a href="https://munba.mx/" class="d-flex align-items-center" title="Munba" style="height: 140px;" target="_blank">
+                            <img src="./src/img/munbaMuLogo.svg" class="img-fluid img-animation h-100" alt="munba" title="Munba">
+                        </a>
+                        <a href="https://munbaexpeditions.mx/" class="d-flex align-items-center" title="Munbaweb" style="height: 120px;" target="_blank">
+                            <img src="./src/img/munbaLogo.svg" class="img-fluid img-animation h-100" alt="munba" title="Munba Expedition">
+                        </a>
+                        <a href="#" title="Helimaz" class="d-flex align-items-center" style="height: 120px;" target="_blank">
+                            <img src="./src/img/helimazLogo.svg" alt="helimaz" class="img-fluid img-animation h-100" title="Helimaz">
+                        </a>
+                        <a href="https://observatorio1873.com/" class="d-flex align-items-center" title="Observatorio" style="height: 120px;" target="_blank">
+                            <img src="./src/img/observLogo.svg" alt="observatorio" class="img-fluid img-animation h-100" title="Observatorio">
+                        </a>
+                        <a href="#" title="Mansión Pirata" class="d-flex align-items-center" style="height: 90px;" target="_blank">
+                            <img src="./src/img/pirataLogo.svg" alt="Mansion pirata" class="img-fluid img-animation h-100" title="Mansion Pirata">
+                        </a>
+                        <a href="#" title="Mazalife" class="d-flex align-items-center" style="height: 170px;">
+                            <img src="./src/img/mazaLogo.svg" alt="mazalife" class="img-fluid img-animation h-100" title="Mazalife">
+                        </a>
+                    </div>                    
+                </div>
+
+                <div class="row mt-5 text-center">
+                    <div class="col-12">
+                        <h2 style="color: #035db1;" class="display-3 fw-bolder img-animation londrina-solid-black">EXPERIENCIAS</h2>
+                        <p class="text-body-secondary arboria h3 mt-3 img-animation px-5">
+                            Descubre Mazatlán como nunca antes, experiencias inolvidables que redefinen el turismo en cada rincón.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Observatorio -->
+    <section id="actividades" >
+        <div style="background-color: rgba(240, 240, 240, 0.995);" class="card mb-4 border-0 px-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="./src/img/observImg.webp" class="img-fluid rounded-start mt-4 mb-3" alt="observatorio ecoturistico" title="observatorio">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body"> 
+                        <p class="card-text h4 img-animation mb-3 arboria mt-4">OBSERVATORIO 1873</p>                     
+                        <h2 style="color: #ff9700;" class="display-3 bold img-animation londrina-solid-black">PARQUE ECOTURÍSTICO</h2>    
+    
+                        <p class="text-body-secondary arboria h3 mt-3 img-animation">
+                            Descubre Mazatlán como nunca antes, experiencias inolvidables que redefinen el turismo en cada rincón.
+                        </p>  
+    
+                        <!-- Contenedor del botón y los íconos -->
+                        <div class="d-flex align-items-center justify-content-between mt-4 py-4 px-2">
+                            <!-- Botón Tickets -->                            
+                                <a href="https://observatorio1873.com/boletos/" 
+                                   target="_blank" 
+                                   class="nav-link fs-5 text-white ticket px-3 py-1 raleway btn shadow img-animation me-3" 
+                                   title="Tickets"
+                                   style="background-color: #ff9700; border-radius: 8px;">
+                                   Tickets
+                                </a>
+                            
+    
+                            <!-- Iconos de redes sociales -->
+                            <div class="d-flex gap-3">
+                                <a href="https://www.facebook.com/Observatoriomzt/" target="_blank" title="Facebook" style="text-decoration: none;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" 
+                                         width="40" height="40" 
+                                         fill="#ff9700" 
+                                         class="bi bi-facebook img-animation" 
+                                         viewBox="0 0 16 16">
+                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                    </svg>
+                                </a>
+                                
+                                <a href="https://www.instagram.com/observatoriomzt/" target="_blank" title="Instagram">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#ff9700" class="bi bi-instagram img-animation ms-4" viewBox="0 0 16 16">
+                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                                      </svg>
+                                </a>
+                                <a href="https://observatorio1873.com/" target="_blank" title="Página Web">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#ff9700" class="bi bi-globe ms-4 img-animation" viewBox="0 0 16 16">
+                                        <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z"/>
+                                      </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Helimaz -->
+    <section >
+        <div class="card mb-5 border-0 px-3">
+            <div class="row g-0">                
+                <div class="col-md-8">
+                    <div class="card-body"> 
+                        <p class="card-text h4 img-animation mb-3 arboria mt-4">HELIMAZ</p>                     
+                        <h2 style="color: #035db1;" class="display-3 bold img-animation londrina-solid-black">EL NUEVO CIELO DE MAZATLÁN</h2>    
+    
+                        <p class="text-body-secondary arboria h3 mt-3 img-animation">
+                            Helimaz ofrece vistas aéreas impresionantes de Mazatlán, elevándote por encima del paisaje con emocionantes recorridos en helicóptero.
+                        </p>  
+    
+                        <!-- Contenedor del botón y los íconos -->
+                        <div class="d-flex align-items-center justify-content-between mt-4 py-4 px-2">
+                            <!-- Botón Tickets -->                            
+                                <a href="#" 
+                                   target="_blank" 
+                                   class="nav-link fs-5 text-white ticket2 px-3 py-1 btn shadow img-animation me-3" 
+                                   title="Tickets"
+                                   style="background-color: #035db1; border-radius: 8px;">
+                                   Tickets
+                                </a>
+                            
+    
+                            <!-- Iconos de redes sociales -->
+                            <div class="d-flex gap-3">
+                                <a href="https://www.facebook.com/profile.php?id=100063565194700" target="_blank" title="Facebook" style="text-decoration: none;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" 
+                                         width="40" height="40" 
+                                         fill="#035db1" 
+                                         class="bi bi-facebook img-animation" 
+                                         viewBox="0 0 16 16">
+                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                    </svg>
+                                </a>
+                                
+                                <a href="https://www.instagram.com/heli.maz/" target="_blank" title="Instagram">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#035db1" class="bi bi-instagram ms-4 img-animation" viewBox="0 0 16 16">
+                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                                      </svg>
+                                </a>
+                                <a href="#" target="_blank" title="Página Web">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#035db1" class="bi bi-globe ms-4 img-animation" viewBox="0 0 16 16">
+                                        <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z"/>
+                                      </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 animate__slideInLeft">
+                    <img src="./src/img/heliMazImg.webp" class="img-fluid rounded-end mt-4" alt="helimaz mazatlan" title="helimaz">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shekina -->
+    <section >
+        <div style="background-color: rgba(240, 240, 240, 0.995);" class="card mb-4 border-0 px-3">
+            <div class="row g-0">
+                <div class="col-md-4 animate__slideInLeft">
+                    <img src="./src/img/shekinaImg.webp" class="img-fluid rounded-start mt-4 mb-3" alt="shekina beach club" title="shekina">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body"> 
+                        <p class="card-text h4 img-animation mb-3 arboria mt-4">SHEKINAH BEACH CLUB & EVENTS</p>                     
+                        <h2 style="color: #ff9700;" class="display-3 bold img-animation londrina-solid-black">CLUB DE PLAYA</h2>    
+    
+                        <p class="text-body-secondary arboria h3 mt-3 img-animation">
+                            Es un exclusivo oasis en Mazatlán, donde el lujo y la naturaleza se fusionan para ofrecer experiencias inolvidables.
+                        </p>  
+    
+                        <!-- Contenedor del botón y los íconos -->
+                        <div class="d-flex align-items-center justify-content-between mt-4 py-4 px-2">
+                            <!-- Botón Tickets -->                            
+                                <a href="https://shekinahbeachclub.com/boletos/" 
+                                   target="_blank" 
+                                   class="nav-link fs-5 text-white ticket px-3 py-1 raleway shadow btn img-animation me-3" 
+                                   title="Tickets"
+                                   style="background-color: #ff9700; border-radius: 8px;">
+                                   Tickets
+                                </a>
+                            
+    
+                            <!-- Iconos de redes sociales -->
+                            <div class="d-flex gap-3">
+                                <a href="https://www.facebook.com/Shekinah.beachclub" target="_blank" title="Facebook" style="text-decoration: none;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" 
+                                         width="40" height="40" 
+                                         fill="#ff9700" 
+                                         class="bi bi-facebook img-animation" 
+                                         viewBox="0 0 16 16">
+                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                    </svg>
+                                </a>
+                                
+                                <a href="https://www.instagram.com/shekinah_beachclub/" target="_blank" title="Instagram">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#ff9700" class="bi bi-instagram ms-4 img-animation" viewBox="0 0 16 16">
+                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                                      </svg>
+                                </a>
+                                <a href="https://shekinahbeachclub.com/" target="_blank" title="Página Web">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#ff9700" class="bi bi-globe ms-4 img-animation" viewBox="0 0 16 16">
+                                        <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z"/>
+                                      </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Munba -->
+    <section >
+        <div class="card mb-5 border-0 px-3">
+            <div class="row g-0">                
+                <div class="col-md-8">
+                    <div class="card-body"> 
+                        <p class="card-text h4 img-animation mb-3 mt-4 arboria">MUSEO NACIONAL DE LA BALLENA</p>                     
+                        <h2 style="color: #035db1;" class="display-3 bold img-animation londrina-solid-black">MUSEO</h2>    
+    
+                        <p class="text-body-secondary arboria h3 mt-3 img-animation">
+                            Descubre la majestuosidad de las ballenas en el Munba: exposiciones fascinantes sobre estos gigantes marinos y su hábitat.
+                        </p>  
+    
+                        <!-- Contenedor del botón y los íconos -->
+                        <div class="d-flex align-items-center justify-content-between mt-4 py-4 px-2">
+                            <!-- Botón Tickets -->                            
+                                <a href="https://boletos.munba.mx/?_gl=1%2A4ljldt%2A_ga%2AMTE1OTY0NTA1MC4xNzMzOTM3NTA3%2A_ga_D7C97STPYX%2AMTczNjc5MTA2MC43LjAuMTczNjc5MTA2MC4wLjAuMA.." 
+                                   target="_blank" 
+                                   class="nav-link fs-5 text-white ticket2 px-3 py-1 raleway shadow btn img-animation me-3" 
+                                   title="Tickets"
+                                   style="background-color: #035db1; border-radius: 8px;">
+                                   Tickets
+                                </a>
+                            
+    
+                            <!-- Iconos de redes sociales -->
+                            <div class="d-flex gap-3">
+                                <a href="https://www.facebook.com/MunbaExpeditions" target="_blank" title="Facebook" style="text-decoration: none;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" 
+                                         width="40" height="40" 
+                                         fill="#035db1" 
+                                         class="bi bi-facebook img-animation" 
+                                         viewBox="0 0 16 16">
+                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                    </svg>
+                                </a>
+                                
+                                <a href="https://www.instagram.com/munbamx/" target="_blank" title="Instagram">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#035db1" class="bi bi-instagram ms-4 img-animation" viewBox="0 0 16 16">
+                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                                      </svg>
+                                </a>
+                                <a href="https://munba.mx/" target="_blank" title="Página Web">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#035db1" class="bi bi-globe ms-4 img-animation" viewBox="0 0 16 16">
+                                        <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z"/>
+                                      </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 animate__slideInLeft">
+                    <img src="./src/img/munbaImg.webp" class="img-fluid rounded-end mt-4" alt="Ballenas Avistamiento" title="munba">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Farolosa -->
+    <section >
+        <div style="background-color: rgba(240, 240, 240, 0.995);" class="card mb-4 border-0 px-3">
+            <div class="row g-0">
+                <div class="col-md-4 animate__slideInLeft">
+                    <img src="./src/img/faroImg.webp" class="img-fluid rounded-start mt-4 mb-3" title="farolesa" alt="farolesa mazatlan">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body"> 
+                        <p class="card-text h4 img-animation mb-3 mt-4 arboria mt-4">FAROLESA</p>                     
+                        <h2 style="color: #ff9700;" class="display-3 bold img-animation londrina-solid-black">ACTIVIDADES EXTREMAS</h2>    
+    
+                        <p class="text-body-secondary arboria h3 mt-3 img-animation">
+                            Farolesa: una tirolesa con vistas impresionantes de Mazatlán, adrenalina y paisajes espectaculares en un solo viaje.
+                        </p>  
+    
+                        <!-- Contenedor del botón y los íconos -->
+                        <div class="d-flex align-items-center justify-content-between mt-4 py-4 px-2">
+                            <!-- Botón Tickets -->                            
+                                <a href="https://farolesa.com.mx/boletos/" 
+                                   target="_blank" 
+                                   class="nav-link fs-5 text-white ticket px-3 py-1 raleway btn shadow img-animation me-3" 
+                                   title="Tickets"
+                                   style="background-color: #ff9700; border-radius: 8px;">
+                                   Tickets
+                                </a>
+                            
+    
+                            <!-- Iconos de redes sociales -->
+                            <div class="d-flex gap-3">
+                                <a href="https://www.facebook.com/farolesa" target="_blank" title="Facebook" style="text-decoration: none;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" 
+                                         width="40" height="40" 
+                                         fill="#ff9700" 
+                                         class="bi bi-facebook img-animation" 
+                                         viewBox="0 0 16 16">
+                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                    </svg>
+                                </a>
+                                
+                                <a href="https://www.instagram.com/farolesamzt/" target="_blank" title="Instagram">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#ff9700" class="bi bi-instagram ms-4 img-animation" viewBox="0 0 16 16">
+                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                                      </svg>
+                                </a>
+                                <a href="https://farolesa.com.mx/" target="_blank" title="Página Web">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#ff9700" class="bi bi-globe ms-4 img-animation" viewBox="0 0 16 16">
+                                        <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z"/>
+                                      </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pirata -->
+    <section >
+        <div class="card mb-5 border-0 px-3">
+            <div class="row g-0">                
+                <div class="col-md-8">
+                    <div class="card-body"> 
+                        <p class="card-text h4 img-animation mb-3 mt-4 arboria">MANSIÓN PIRATA</p>                     
+                        <h2 style="color: #035db1;" class="display-3 bold img-animation londrina-solid-black">MUSEO TEMÁTICO</h2>    
+    
+                        <p class="text-body-secondary arboria h3 mt-3 img-animation">
+                            Vive una aventura única con temática pirata, donde la diversión y el misterio te transportan al pasado.
+                        </p>  
+    
+                        <!-- Contenedor del botón y los íconos -->
+                        <div class="d-flex align-items-center justify-content-between mt-4 py-4 px-2">
+                            <!-- Botón Tickets -->                            
+                                <a href="#" 
+                                   target="_blank" 
+                                   class="nav-link fs-5 text-white ticket2 px-3 py-1 btn shadow raleway img-animation me-3" 
+                                   title="Tickets"
+                                   style="background-color: #035db1; border-radius: 8px;">
+                                   Tickets
+                                </a>
+                            
+    
+                            <!-- Iconos de redes sociales -->
+                            <div class="d-flex gap-3">
+                                <a href="https://www.facebook.com/LaMansionPirataMazatlan" target="_blank" title="Facebook" style="text-decoration: none;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" 
+                                         width="40" height="40" 
+                                         fill="#035db1" 
+                                         class="bi bi-facebook img-animation" 
+                                         viewBox="0 0 16 16">
+                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                    </svg>
+                                </a>
+                                
+                                <a href="https://www.instagram.com/lamansionpiratamazatlan/" target="_blank" title="Instagram">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#035db1" class="bi bi-instagram ms-4 img-animation" viewBox="0 0 16 16">
+                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                                      </svg>
+                                </a>
+                                <a href="#" target="_blank" title="Página Web">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#035db1" class="bi bi-globe ms-4 img-animation" viewBox="0 0 16 16">
+                                        <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z"/>
+                                      </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 animate__slideInLeft">
+                    <img src="./src/img/piraImg.webp" class="img-fluid rounded-end mt-4" title="pirata" alt="mansion pirata mazatlan">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mazalife -->
+    <section >
+        <div style="background-color: rgba(240, 240, 240, 0.995);" class="card mb-4 border-0 px-3">
+            <div class="row g-0">
+                <div class="col-md-4 animate__slideInLeft">
+                    <img src="./src/img/mazaImg.webp" class="img-fluid rounded-start mt-4 mb-3" title="mazalife" alt="mazalife mazatlan">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body"> 
+                        <p class="card-text h4 img-animation mb-3 arboria mt-4">MAZALIFE</p>                     
+                        <h2 style="color: #ff9700;" class="display-3 bold img-animation londrina-solid-black">CITY TOURS</h2>    
+    
+                        <p class="text-body-secondary arboria h3 mt-3 img-animation">
+                            Descubre aventuras inolvidables y sumérgete en la esencia auténtica de la Perla del Pacífico a travez de nuestro tour guiado.
+                        </p>  
+    
+                        <!-- Contenedor del botón y los íconos -->
+                        <div class="d-flex align-items-center justify-content-between mt-4 py-4 px-2">
+                            <!-- Botón Tickets -->                            
+                                <a href="https://mazalife.com.mx/boletos/" 
+                                   target="_blank" 
+                                   class="nav-link fs-5 text-white ticket px-3 py-1 raleway btn shadow img-animation me-3" 
+                                   title="Tickets"
+                                   style="background-color: #ff9700; border-radius: 8px;">
+                                   Tickets
+                                </a>
+                            
+    
+                            <!-- Iconos de redes sociales -->
+                            <div class="d-flex gap-3">
+                                <a href="https://www.facebook.com/MazalifeTourism" target="_blank" title="Facebook" style="text-decoration: none;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" 
+                                         width="40" height="40" 
+                                         fill="#ff9700" 
+                                         class="bi bi-facebook img-animation" 
+                                         viewBox="0 0 16 16">
+                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                    </svg>
+                                </a>
+                                
+                                <a href="https://www.instagram.com/mazalifetourism/" target="_blank" title="Instagram">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#ff9700" class="bi bi-instagram ms-4 img-animation" viewBox="0 0 16 16">
+                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                                      </svg>
+                                </a>
+                                <a href="https://mazalife.com.mx/" target="_blank" title="Página Web">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#ff9700" class="bi bi-globe ms-4 img-animation" viewBox="0 0 16 16">
+                                        <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z"/>
+                                      </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <div id="contacto" class="bg-image d-flex align-items-center justify-content-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card bg-white bg-opacity-75">
+                        <div class="card-body">
+                            <h2 class="card-title text-center mb-4">Contactanos</h2>
+                            <form id="whatsappForm">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Correo electrónico</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Comentario</label>
+                                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                                </div>
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-primary">Envíar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Column 1: Logo and Description -->
+                <div class="col-md-4 mb-4">
+                    <img src="./src/img/mazaLogo.svg" alt="Mazalife Logo" class="footer-logo" title="Mazalife" style="height: 130px;">
+                    <p class="h5 mb-4 arboria">Aventuras emocionantes, vistas impresionantes y momentos inolvidables en Mazatlán, combinando diversión, cultura y naturaleza.</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/MazalifeTourism" target="_blank" title="Facebook" style="text-decoration: none;">
+                            <svg xmlns="http://www.w3.org/2000/svg" 
+                                 width="40" height="40" 
+                                 fill="#ff9700" 
+                                 class="bi bi-facebook " 
+                                 viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/mazalifetourism/" target="_blank" title="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#ff9700" class="bi bi-instagram ms-4 " viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                              </svg></a>
+                        <a href="https://www.youtube.com/@MazalifeTourism" target="_blank" title="Youtube">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#ff9700" class="bi bi-instagram ms-4 " viewBox="0 0 16 16">
+                                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                              </svg></a>
+                        <a href="https://wa.me/526694540031" target="_blank" title="Whatsapp">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#ff9700" class="ms-4 bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                              </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Attractions -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="mb-3">ATRACCIONES</h5>
+                    <ul class="attractions-list list-unstyled">
+                        <li class="py-2">
+                            <a target="_blank" href="https://observatorio1873.com/" title="Observatorio" class="text-decoration-none text-dark d-block hover-link">Observatorio 1873</a>
+                        </li>
+                        <li class="py-2">
+                            <a target="_blank" href="https://munbaexpeditions.mx/" title="Munba" class="text-decoration-none text-dark d-block hover-link">Munba</a>
+                        </li>
+                        <li class="py-2">
+                            <a target="_blank" href="https://shekinahbeachclub.com/" title="Shekinah" class="text-decoration-none text-dark d-block hover-link">Shekinah</a>
+                        </li>
+                        <li class="py-2">
+                            <a  href="#" title="Mansion pirata" class="text-decoration-none text-dark d-block hover-link">Mansión Pirata</a>
+                        </li>
+                        <li class="py-2">
+                            <a  href="#" title="Helimaz" class="text-decoration-none text-dark d-block hover-link">Helimaz</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+
+                <!-- Column 3: Contact -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="mb-3">CONTACTO</h5>
+                    <p class="contact-heading mb-2">ENVÍANOS UN WHATSAPP</p>
+                    <a href="https://wa.me/526692609844" target="_blank" title="Whatsapp" class="contact-info d-block mb-3">+52 (669) 454 0031</a>
+                    <p class="contact-heading mb-2">ENVÍANOS UN CORREO</p>
+                    <a href="mailto:hola@mazalife.com.mx" title="Correo" class="contact-info d-block">hola@mazalife.com.mx</a>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="row copyright">
+                <div class="col-12 text-center">
+                    <small class="text-muted">Copyright © 2025 Mazalife, Todos los derechos reservados. Powered by Igniting Proyecta Marketing</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./src/js/whatsapp.js"></script>
+    <script src="./src/js/scrolldown.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

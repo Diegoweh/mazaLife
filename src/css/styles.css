@@ -1,0 +1,212 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Londrina+Solid:wght@100;300;400;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.arboria{
+    font-family: "arboria", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.londrina-solid-thin {
+    font-family: "Londrina Solid", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+  
+  .londrina-solid-light {
+    font-family: "Londrina Solid", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+  .londrina-solid-regular {
+    font-family: "Londrina Solid", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+  .londrina-solid-black {
+    font-family: "Londrina Solid", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.logo-responsive {
+    max-width: 100%; /* Ocupa el ancho máximo del contenedor */
+    height: auto; /* Mantiene las proporciones */
+  }
+  
+  @media (max-width: 768px) { /* Pantallas pequeñas */
+    .logo-responsive {
+      max-width: 130px; /* Reduce el tamaño del logo */
+    }
+}
+
+.hidden {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+/* NavBar */
+.nav-link.ticket {
+    
+    background-color: #ff9700 !important;
+    border-radius: 13px;
+    transition: background-color 0.3s;
+}
+
+.nav-link.ticket2 {
+    display: inline-block;
+    background-color: #035db1 !important;
+    border-radius: 13px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    transition: transform 0.2s ease;
+}
+
+
+
+/* Contact */
+.bg-image {
+    background-image: url('/inicio/src/img/contactImg.webp');
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+}
+
+/* Footer */
+.footer {
+    padding: 4rem 0 1rem 0;
+    background-color: #ffffff;
+}
+
+.footer-logo {
+    max-width: 260px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+.copyright {
+    border-top: 1px solid #dee2e6;
+    padding-top: 1rem;
+    margin-top: 2rem;
+}
+.contact-heading {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+.contact-info {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.attractions-list {
+    list-style: none;
+    padding: 0;
+}
+.attractions-list li {
+    margin-bottom: 0.5rem;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+   }
+
+   .img-animation {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 25% cover 45%;
+
+   }
+
+   .scroll-down {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff9700;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.scroll-down:hover {
+    background-color: #0056b3;
+}
+
+/* Logo Carousel */
+
+@keyframes slides {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logos {
+    overflow: hidden;
+    padding: 30px 0px;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .logos:before, .logos:after {
+    position: relative;
+    top: 0;
+    content: '';
+    width: 250px;
+    height: 100%;
+    z-index: 2;
+  }
+  
+  .logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255,255,255,0), rgb(255, 255, 255));
+  }
+  
+  .logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255,255,255,0), rgb(255, 255, 255));
+  }
+  
+  .logo_items {
+    display: inline-block;
+    animation: 35s slides infinite linear;
+  }
+  
+  .logos:hover .logo_items {
+    animation-play-state: paused;
+  }
+  
+  .logo_items img{
+    height: 100px;
+  }
+
+
